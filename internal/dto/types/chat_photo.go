@@ -1,5 +1,4 @@
-package telegramic
+package types
 
-type chatPhoto struct {
-
+type ChatPhoto struct {
 }

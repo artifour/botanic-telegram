@@ -1,5 +1,4 @@
-package telegramic
+package types
 
-type messageEntity struct {
-
+type MessageEntity struct {
 }
