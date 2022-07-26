@@ -1,5 +1,8 @@
 package types
 
+// InlineKeyboardButton
+// This object represents one button of an inline keyboard. You must use exactly one of the optional fields.
+// https://core.telegram.org/bots/api#inlinekeyboardbutton
 type InlineKeyboardButton struct {
 	Text                         string       `json:"text"`
 	Url                          string       `json:"url"`

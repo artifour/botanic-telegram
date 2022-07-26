@@ -1,6 +1,6 @@
 package params
 
-import "github.com/artifour/telegramic/internal/dto/types"
+import "github.com/artifour/botanic-telegram/internal/dto/types"
 
 type SendMessage struct {
 	ChatId                   string                `json:"chat_id"`
