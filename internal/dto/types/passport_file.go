@@ -1,7 +1,6 @@
 package types
 
 type PassportFile struct {
-	File
-	FileSize int `json:"file_size"`
+	BaseFile
 	FileDate int `json:"file_date"`
 }
